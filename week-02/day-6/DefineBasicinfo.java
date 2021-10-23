@@ -1,6 +1,6 @@
 package com.greenfoxacademy.expressions_and_control_flow;
 
-public class DefineBasicinfo {
+public class DefineBasicInfo {
 
     public static void main(String[] args) {
 
