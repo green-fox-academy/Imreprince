@@ -7,18 +7,18 @@ public class Sum {
 // - Hozz létre egy class-t `Sum` névvel és benne a main függvényt.
 
 // - Készíts egy függvényt `sum` névvel mely összeadja a számokat
-//
+//   nullától a bemeneti paraméterig és visszaadja azok összegét.
 
-        sum(3);
+        int number = 5;
 
+        System.out.println(sum(number));
     }
 
-    public static void sum(int beginnerNumber) {
+    public static int sum(int sumNumber) {
 
-        int sumNumber = 0;
-        for (int i = beginnerNumber; i > 0; i--) {
-            sumNumber += i;
+        for (int i = sumNumber; i > 0; i--) {
+            sumNumber += i - 1;
         }
-        System.out.println("A számok összege " + beginnerNumber + "-ig: " + sumNumber);
+        return sumNumber;
     }
 }
